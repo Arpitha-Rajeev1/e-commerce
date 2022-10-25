@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+}
+
+.home_row {
+    width: 1000px;
+    z-index: 1;
+}
+
+.home_image {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -340px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}

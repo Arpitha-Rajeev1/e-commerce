@@ -1,0 +1,64 @@
+.star {
+    color: gold;
+}
+
+.product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    background: #fff;
+    padding: 10px;
+    z-index: 30;
+    width: 400px;
+}
+
+.category {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-style: italic;
+    color: gray;
+}
+
+.product > h4 {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.desc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-clamp: 2px;
+}
+
+.price {
+    margin-bottom: 5px;
+}
+
+.product > img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.product_price {
+    margin-top: 5px;
+}
+
+.product_info {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.product > button {
+    background: linear-gradient(yellow, gold);
+    border: 1px solid;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+    width: fit-content;
+    margin: auto;
+}
